@@ -11,16 +11,18 @@
 		F059FCDE2177F0C400CBE2C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F059FCDD2177F0C400CBE2C4 /* ViewController.swift */; };
 		F059FCE02177F0C600CBE2C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F059FCDF2177F0C600CBE2C4 /* Assets.xcassets */; };
 		F059FCE32177F0C600CBE2C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F059FCE12177F0C600CBE2C4 /* Main.storyboard */; };
+		F059FCEC2177F6FF00CBE2C4 /* WhatAreYouDoingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F059FCEB2177F6FF00CBE2C4 /* WhatAreYouDoingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F059FCD82177F0C400CBE2C4 /* Unitasker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unitasker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F059FCDB2177F0C400CBE2C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F059FCDD2177F0C400CBE2C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F059FCDF2177F0C600CBE2C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F059FCE22177F0C600CBE2C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F059FCE42177F0C600CBE2C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F059FCE52177F0C600CBE2C4 /* Unitasker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Unitasker.entitlements; sourceTree = "<group>"; };
+		F059FCEB2177F6FF00CBE2C4 /* WhatAreYouDoingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatAreYouDoingViewController.swift; sourceTree = "<group>"; };
+		F059FD1C21781E7800CBE2C4 /* Unitasker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unitasker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,16 +40,8 @@
 			isa = PBXGroup;
 			children = (
 				F059FCDA2177F0C400CBE2C4 /* Unitasker */,
-				F059FCD92177F0C400CBE2C4 /* Products */,
+				F059FD1C21781E7800CBE2C4 /* Unitasker.app */,
 			);
-			sourceTree = "<group>";
-		};
-		F059FCD92177F0C400CBE2C4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F059FCD82177F0C400CBE2C4 /* Unitasker.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		F059FCDA2177F0C400CBE2C4 /* Unitasker */ = {
@@ -59,6 +53,7 @@
 				F059FCE12177F0C600CBE2C4 /* Main.storyboard */,
 				F059FCE42177F0C600CBE2C4 /* Info.plist */,
 				F059FCE52177F0C600CBE2C4 /* Unitasker.entitlements */,
+				F059FCEB2177F6FF00CBE2C4 /* WhatAreYouDoingViewController.swift */,
 			);
 			path = Unitasker;
 			sourceTree = "<group>";
@@ -80,7 +75,7 @@
 			);
 			name = Unitasker;
 			productName = Unitasker;
-			productReference = F059FCD82177F0C400CBE2C4 /* Unitasker.app */;
+			productReference = F059FD1C21781E7800CBE2C4 /* Unitasker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -107,7 +102,7 @@
 				Base,
 			);
 			mainGroup = F059FCCF2177F0C400CBE2C4;
-			productRefGroup = F059FCD92177F0C400CBE2C4 /* Products */;
+			productRefGroup = F059FCCF2177F0C400CBE2C4;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -135,6 +130,7 @@
 			files = (
 				F059FCDE2177F0C400CBE2C4 /* ViewController.swift in Sources */,
 				F059FCDC2177F0C400CBE2C4 /* AppDelegate.swift in Sources */,
+				F059FCEC2177F6FF00CBE2C4 /* WhatAreYouDoingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +276,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = club.snoot.Unitasker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -299,6 +296,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = club.snoot.Unitasker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
